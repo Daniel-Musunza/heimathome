@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .footer {
+            background-color: #1d2a4d;
+            color: #ffffff;
+            padding: 40px 0;
+            font-size: 14px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-column {
+            flex: 1;
+            margin: 20px;
+        }
+
+        .footer-column h3 {
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .footer-column p, .footer-column a {
+            color: #b0c4de;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+
+        .footer-column a:hover {
+            color: #ffffff;
+        }
+
+        .footer-icons {
+            margin-top: 20px;
+        }
+
+        .footer-icons a {
+            margin-right: 10px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .footer-icons a:hover {
+            color: #ff6600;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding: 20px;
+            background-color: #162440;
+            color: #b0c4de;
+            font-size: 13px;
+        }
+
+        .list{
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-column {
+                margin: 10px 0;
+            }
+
+            .footer-icons {
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="list">
+                    <img src="https://www.heimatconsult.co.ke/wp-content/uploads/2020/12/Heimat-Logo-01-1.png" alt="Heimat Consult Limited" width="150">
+                    <p><strong>Location:</strong><br>BP Plaza (1st floor), Umoja Road, Nyali.<br>P.O. Box 95670-80106 | Mombasa, Kenya.</p>
+                    <p><strong>Working hours:</strong><br>Mon – Fri - 8:00am – 5:00pm<br>Sat - 8:30am – 1:00pm</p>
+                </div>
+                
+            </div>
+            <div class="footer-column">
+                <h3>SERVICES</h3>
+                <div class="list">
+                    <a href="#">Real Estate Management</a>
+                    <a href="#">Property Management</a>
+                    <a href="#">Survey & Valuation</a>
+                    <a href="#">Construction</a>
+                    <a href="#">Property Development</a>
+                    <a href="#">Consultancy & Advisory Services</a>
+                </div>
+               
+            </div>
+            <div class="footer-column">
+                <h3>COMPANY</h3>
+                <div class="list">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Partners</a>
+                </div>
+               
+                <h3>LAYOUTS</h3>
+                <div class="list">
+                    <a href="#">Default</a>
+                    <a href="#">Alternative 1</a>
+                    <a href="#">Alternative 2</a>
+                </div>
+               
+            </div>
+            <div class="footer-column">
+                <h3>GET IN TOUCH</h3>
+                <div class="list">
+                    <p><i class="fas fa-phone"></i> 0795333777 | 0792 111 777</p>
+                    <p><i class="fas fa-envelope"></i> info@heimatconsult.co.ke</p>
+                    <p><i class="fas fa-envelope"></i> sales@heimatconsult.co.ke</p>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+             
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Heimat Consult Limited
+        </div>
+    </footer>
+
+</body>
+</html>

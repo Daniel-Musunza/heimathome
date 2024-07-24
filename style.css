@@ -185,10 +185,13 @@ margin-right: -20px;
 
 .hero .hero-image .text p {
     font-size: 40px;
-    color: #0E2E50;
+    color: #ffff;
+    /* color: #0E2E50; */
     font-weight: 700;
 }
-
+.sm-text{
+    color: #ffff;
+}
 .hero .hero-image .text .searchbar {
     display: flex;
     gap: 30px;

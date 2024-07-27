@@ -45,7 +45,7 @@ margin-right: -20px;
 /*header*/
 .header {
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     z-index: 999;
     width: 100%;
 }
@@ -99,7 +99,6 @@ margin-right: -20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 0px 10px 20px #fff;
 }
 
 .header .container nav .right-data button a,
@@ -140,35 +139,35 @@ margin-right: -20px;
 }
 
 .hero .hero-image {
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 
-.hero .hero-image::before
-{
+.hero .hero-image::before {
     content: "";
     position: absolute;
-    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 51, 102, 0.262); 
-    z-index: 1; 
+    height: 100%; /* Adjust the height of the gradient */
+    background: linear-gradient(to top, rgba(0, 51, 102, 0.888), #ffffffa3);
+    z-index: 1;
 }
 
 
 .hero .hero-image .text {
     z-index: 2;
     max-width: 50%;
-    margin-top: 50px;
-    padding-left: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    margin-bottom: 150px;
 }
 
 .hero .hero-image .text h5 {
@@ -191,11 +190,14 @@ margin-right: -20px;
     /* color: #ffff; */
     color: #0E2E50;
     font-weight: 700;
+    font-family: 'Futura', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.sm-text{
+
+.sm-text {
     /* color: #ffff; */
-    color: #0E2E50; 
+    color: #0E2E50;
 }
+
 .hero .hero-image .text .searchbar {
     display: flex;
     gap: 30px;
@@ -227,29 +229,40 @@ margin-right: -20px;
 
 .search-button {
     display: inline-block;
-    border-radius: 50%; /* Ensures the container is circular */
-    overflow: hidden;   /* Clips the contents to fit the rounded border */
+    border-radius: 50%;
+    /* Ensures the container is circular */
+    overflow: hidden;
+    /* Clips the contents to fit the rounded border */
 }
 
 .search-btn {
     border: none;
-    background-color: #fff; /* Adjust the background color as needed */
+    background-color: #fff;
+    /* Adjust the background color as needed */
     padding: 10px;
-    border-radius: 50%; /* Makes the button circular */
+    border-radius: 50%;
+    /* Makes the button circular */
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-    display: flex; /* Centers the icon within the button */
-    align-items: center; /* Vertically centers the icon */
-    justify-content: center; /* Horizontally centers the icon */
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    display: flex;
+    /* Centers the icon within the button */
+    align-items: center;
+    /* Vertically centers the icon */
+    justify-content: center;
+    /* Horizontally centers the icon */
 }
 
 .search-btn:hover {
-    background-color: #fff; /* Darker shade on hover */
+    background-color: #fff;
+    /* Darker shade on hover */
 }
 
 .search-btn img {
-    width: 30px; /* Size of the icon */
-    height: 30px; /* Size of the icon */
+    width: 30px;
+    /* Size of the icon */
+    height: 30px;
+    /* Size of the icon */
 }
 
 
@@ -280,16 +293,83 @@ margin-right: -20px;
         display: flex;
     }
 
-    .hero .hero-image .text .searchbar {
-        flex-direction: column;
-    }
-
-    .hero .hero-image .text .searchbar .search-form {
+    .hero .hero-image .text {
+        margin: 0;
+        margin-top: 100px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        gap: 20px;
     }
+    
+    
+.hero .hero-image .text .searchbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+}
+
+.search-form .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.search-form .input-container select {
+    color: #fff;
+    background-color: transparent;
+}
+
+.input-container select option {
+    background-color: #0E2E50;
+
+}
+
+.search-button {
+    display: inline-block;
+    border-radius: 50%;
+    /* Ensures the container is circular */
+    overflow: hidden;
+    /* Clips the contents to fit the rounded border */
+}
+
+.search-btn {
+    border: none;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+    padding: 10px;
+    border-radius: 50%;
+    /* Makes the button circular */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth transition on hover */
+    display: flex;
+    /* Centers the icon within the button */
+    align-items: center;
+    /* Vertically centers the icon */
+    justify-content: center;
+    /* Horizontally centers the icon */
+}
+
+.search-btn:hover {
+    background-color: #fff;
+    /* Darker shade on hover */
+}
+
+.search-btn img {
+    width: 30px;
+    /* Size of the icon */
+    height: 30px;
+    /* Size of the icon */
+}
+
 }
 
 .swipper-details p {
@@ -536,8 +616,10 @@ margin-right: -20px;
 }
 
 .listings {
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
@@ -613,20 +695,20 @@ margin-right: -20px;
 
 @media (max-width:800px) {
     .listings {
-        margin: 0!important;
-    
+        margin: 0 !important;
+
     }
-    
+
     .listings-header {
-       
-        width: 100%!important;
+
+        width: 100% !important;
         margin: 10px;
     }
 
     .listings-grid {
         width: 100%;
     }
-    
+
     .listing-card {
         width: 100%;
     }
@@ -728,24 +810,29 @@ margin-right: -20px;
     color: #fff;
     margin: 5px 0 0;
 }
+
 @media (max-width:800px) {
     .company-section {
         margin: 0;
     }
+
     .company-content {
         width: 100%;
 
         display: flex;
         flex-direction: column;
-    
+
     }
+
     .company-stats {
         width: 100%;
     }
-    .company-image{
+
+    .company-image {
         width: 100%;
     }
-    .company-description{
+
+    .company-description {
         padding: 10px;
     }
 }
@@ -754,13 +841,13 @@ margin-right: -20px;
 .footer {
     background-color: #183752;
     color: #ffffff;
-    padding: 40px 0;
     font-size: 14px;
+    margin-top: 50px;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

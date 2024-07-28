@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.emaar.com	TRUE	/	FALSE	1999999999	PersistanceCookie	!w2hmCa2FZ4PKPPkATxR+L9Xz+qrkYA19vC5zewYuesnrOOkgYLWtjdvfifrr8L+geFmerQBjBBWNncE=
+www-emaar-com.azureedge.net	TRUE	/	FALSE	1999999999	PersistanceCookie	!0iZS2+Tv8rqTNN1Jc+V2vt+4pNBEiJvWrxBGkoqDrv0FGCTpwD5OBIEDms8awsLtrF0gQmcYYrnO8m8=
+mobileapps.emaartechnologies.com	TRUE	/	FALSE	1999999999	EmaarCookie	!oIO4V7iJUXjqz5PqeOVjrcoK9iT98IC8e9QY83IGb6d2CuTiXaU0hyd2tjF+tWdtbt4YV0G7doqUgMo=
+mobileapps.emaartechnologies.com	TRUE	/	FALSE	1999999999	TS01761bea	01eddcdb62a728bf4d8caa296741990e5609a5336c77cf7350cfa95a1716c271974e815e795ce2f3bfe2663bbf46dbecd56949569fe1783ee7b0a0260a7f5c334edb9e13c7
+.www.emaar.com	TRUE	/	FALSE	1999999999	TS01be8a6f	0172842b718857422c619b62fbcc5a7fff46cc797cac588db523e12c80650ab46ad48e8f5e7ea73ed601bbd9ab7c4b0da60c971b54
+

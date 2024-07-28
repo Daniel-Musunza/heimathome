@@ -1,0 +1,34 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 26 Jul 2024 14:02:35 at https://www.emaar.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.emaar.com/ -O1 "C:\My Web Sites\https___www.emaar.com_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:04:00	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.emaar.com/feed/ (from https://www.emaar.com/)
+14:04:10	Warning: 	Retry after error -4 (Connect Error) at link https://www.emaar.com/wp-json/ (from https://www.emaar.com/)
+14:04:13	Warning: 	Retry after error -4 (Connect Error) at link https://www.emaar.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.emaar.com%2F (from https://www.emaar.com/)
+14:04:13	Warning: 	Retry after error -4 (Connect Error) at link https://www.emaar.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.emaar.com%2F&format=xml (from https://www.emaar.com/)
+14:04:13	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from https://www.emaar.com/)
+14:04:14	Warning: 	Moved Temporarily for www.emaar.com/robots.txt
+14:04:14	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emaar.com/robots.txt and https://www.emaar.com/robots.txt
+14:04:14	Warning: 	Warning moved treated for www.emaar.com/robots.txt (real one is https://www.emaar.com/robots.txt)
+14:04:14	Warning: 	Moved Temporarily for www.emaar.com/wp-content/themes/twentytwenty-child/
+14:04:14	Warning: 	Redirected link is identical because of 'URL Hack' option: www.emaar.com/wp-content/themes/twentytwenty-child/ and https://www.emaar.com/wp-content/themes/twentytwenty-child/
+14:04:14	Warning: 	File has moved from www.emaar.com/wp-content/themes/twentytwenty-child/ to https://www.emaar.com/wp-content/themes/twentytwenty-child/
+14:04:16	Warning: 	Retry after error 500 (Internal Server Error) at link https://www.emaar.com/feed/ (from https://www.emaar.com/)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/facebook.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/twitter.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/whatsapp.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/email.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/emaar/inc/assets/images/overlay.jpg (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/Events-ribbon-2.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/lrw-bg.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/search-offers-rectangle@2x.png (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Not Found" (404) at link https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/css/inc/assets/images/download-app-background.jpg (from https://www-emaar-com.azureedge.net/wp-content/cache/min/1/wp-content/themes/twentytwenty-child/assets/css/style.css?ver=1719309758)
+14:04:16	Error: 	"Unauthorized" (401) at link https://www.emaar.com/wp-json/ (from https://www.emaar.com/)
+14:04:18	Error: 	"Internal Server Error" (500) after 2 retries at link https://www.emaar.com/feed/ (from https://www.emaar.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 57 seconds : 71 links scanned, 51 files written (7062840 bytes overall) [6139489 bytes received at 52474 bytes/sec], 1327404 bytes transferred using HTTP compression in 31 files, ratio 27%, 3.2 requests per connection
+(12 errors, 11 warnings, 0 messages)

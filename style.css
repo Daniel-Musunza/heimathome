@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.header .container .navbar a {
+.header .container .navbar2 a {
     font-size: 16px;
     color: #ffff;
     font-weight: 700;
@@ -49,14 +49,13 @@
     align-items: center;
 }
 
-.header .container nav .right-data #menu {
+.header .container nav .right-data #menu2 {
     color: #ffff;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    margin-right: 20px;
     display: none;
 }
 
@@ -115,15 +114,36 @@
 }
 
 @media (max-width:800px) {
-    .navbar {
-        display: none; /* Hide navbar by default */
+    .navbar2 {
+        position: fixed;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        background-color: #fff;
+        display: none; /* Initially hidden */
         flex-direction: column;
+        overflow: hidden; /* Ensures that content does not overflow */
+        transition: max-height 0.3s ease-out, opacity 0.3s ease-out; /* Smooth transition */
+        max-height: 0; /* Start with zero height */
+        opacity: 0; /* Start fully transparent */
       }
-      
-      .header .container nav .right-data #menu {
-        display: block; /* Show menu icon on mobile */
-        cursor: pointer; /* Add cursor pointer for better UX */
+    
+      .navbar2.active {
+        display: flex; /* Display flex */
+        max-height: 500px; /* Adjust max-height based on content */
+        opacity: 1; /* Fully opaque */
       }
+
+    .navbar2 a{
+        color: #0E2E50!important;
+        border-bottom: 1px #0E2E50 dotted;
+    }
+    .header .container nav .right-data #menu2 {
+        display: block;
+        /* Show menu icon on mobile */
+        cursor: pointer;
+        /* Add cursor pointer for better UX */
+    }
 
     .header .container .logo img {
         height: 50px;

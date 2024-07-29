@@ -697,36 +697,40 @@
           <a href="/index.html"><img src="img/white-logo.png" alt="" width="100px"></a>
         </div>
         <nav>
-          <div class="navbar" id="navbar">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">Developments</a>
-            <a href="#" class="nav-item nav-link">Listings</a>
-            <a href="#" class="nav-item nav-link">Contact</a>
+
+          <div class="navbar2" id="navbar2">
+            <a href="#">Home</a>
+            <a href="#">Developments</a>
+            <a href="#">Listings</a>
+            <a href="#">Contact</a>
           </div>
+
           <div class="right-data">
             <a href="#" class="whatsapp">Whatsapp</a>
-            <i class="fa-solid fa-bars" id="menu"></i>
+            <i class="fa-solid fa-bars" id="menu2"></i>
           </div>
         </nav>
       </div>
     </section>
 
     <script>
+      let navbar = document.querySelector('.navbar2');
+      let menuIcon = document.querySelector('#menu2');
 
-      document.addEventListener('DOMContentLoaded', function () {
-        const menuIcon = document.getElementById('menu');
-        const navbar = document.getElementById('navbar');
-
-        if (menuIcon && navbar) { // Check if elements are present
-          menuIcon.addEventListener('click', function () {
-            if (navbar.style.display === 'block') {
-              navbar.style.display = 'none';
-            } else {
-              navbar.style.display = 'block';
-            }
-          });
-        } else {
-          console.error("Menu icon or navbar not found");
+      // Toggle the active class on click of menu icon
+      menuIcon.onclick = (event) => {
+        event.stopPropagation(); // Prevent click event from bubbling up to document
+        navbar.classList.toggle('active');
+      };
+      
+      navbar.onclick = (event) => {
+        event.stopPropagation(); // Prevent click event from bubbling up to document
+        navbar.classList.toggle('active');
+      };
+      // Close the navbar if clicking outside of it
+      document.addEventListener('click', (event) => {
+        if (!navbar.contains(event.target) && !menuIcon.contains(event.target)) {
+          navbar.classList.remove('active');
         }
       });
 
@@ -1718,8 +1722,6 @@
         </div>
       </div>
 
-
-
       <script type="text/javascript">
         var checkMobile = window.matchMedia("(max-width: 767px)");
         $("#btn-show-filters").click(function () {
@@ -2120,20 +2122,20 @@
       }); 
     </script>
 
- <!-- jQuery -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <!-- Mmenu JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.min.js"></script>
- <!-- Slick Carousel JavaScript (if used) -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
- <!-- Custom Script to Toggle Navbar -->
- <script>
-   $(document).ready(function() {
-     $('#menu').on('click', function() {
-       $('#navbar').slideToggle();
-     });
-   });
- </script>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Mmenu JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/8.5.24/mmenu.min.js"></script>
+    <!-- Slick Carousel JavaScript (if used) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Custom Script to Toggle Navbar -->
+    <script>
+      $(document).ready(function () {
+        $('#menu').on('click', function () {
+          $('#navbar').slideToggle();
+        });
+      });
+    </script>
 </body>
 
 </html>

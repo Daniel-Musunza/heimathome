@@ -692,140 +692,16 @@
             margin: 50px;
         }
 
-        .image-slider2 {
-            position: relative;
-            width: 100%;
-            height: auto;
-        }
-
-        .image-slider2 img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: auto;
-            z-index: 0;
-            display: none;
-        }
-
-        .image-slider2 img:first-child {
-            display: block;
-            z-index: 1;
-        }
-
-        .dev-card .dev-img {
-            width: 50%;
-            height: 350px;
-        }
-
-        .dev-card .dev-img img {
-            width: 100%;
-            object-fit: fill;
-            height: auto;
-        }
-
         .dev-badge {
             background-color: hsl(17, 89%, 56%);
             color: white;
-            padding: 7px 12px;
+            padding: 5px;
             position: absolute;
-            top: 25px;
+            top: 5px;
             left: 0;
-            font-size: 15px;
+            font-size: 10px;
             font-weight: bold;
             z-index: 3;
-        }
-
-        .dev-card-content {
-            position: relative;
-            padding: 10px 20px;
-            height: 350px;
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            margin: 0 20px;
-
-        }
-
-        .dev-card-content .dev-logo {
-            position: relative;
-            width: 150px;
-            align-self: center;
-            margin: 0 !important;
-            padding: 10px;
-        }
-
-        .dev-card-content h2 {
-            color: #333;
-            font-size: 19px;
-            margin: 0 !important;
-            padding: 10px;
-        }
-
-        .dev-card-content .info {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 100%;
-            margin: 0 !important;
-
-        }
-
-        .dev-info .info-d {
-            display: flex;
-            justify-content: space-between;
-            margin: 0 !important;
-            padding: 0 10px;
-            width: 100%;
-        }
-
-        .dev-info .info-d span {
-            display: block;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .dev-info .info-d div {
-            display: flex;
-        }
-
-        .dev-info .info-d div small {
-            padding-left: 10px;
-            padding-top: 10px;
-            color: #666;
-        }
-
-        .dev-buttons {
-            display: flex;
-            justify-content: space-between;
-            position: relative;
-            margin: 0 !important;
-            padding: 10px;
-        }
-
-        .dev-buttons a {
-            text-decoration: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .dev-buttons .btn1 {
-            border: 1px solid #333;
-            background-color: #FFF;
-            color: #333;
-        }
-
-        .dev-buttons .btn2 {
-            background-color: #555;
-            color: white;
-        }
-
-        .dev-buttons a:hover {
-            background-color: #333;
-            color: #FFF;
         }
 
         @media (max-width: 1670px) {
@@ -843,12 +719,6 @@
             .dev-card {
 
                 width: 100%;
-            }
-
-            .dev-card .dev-img,
-            .dev-card-content {
-                position: relative;
-                height: max-content;
             }
 
         }
@@ -874,36 +744,6 @@
                 margin-bottom: 50px !important;
             }
 
-            .dev-card .dev-img,
-            .dev-card-content {
-                width: 100%;
-                margin: 0;
-            }
-
-            .dev-card-content {
-                position: relative;
-                padding: 10px;
-            }
-
-            .dev-card .dev-img {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                /* Center the image vertically */
-                height: 300px;
-                overflow: hidden;
-                /* Prevent overflow if the image is larger */
-            }
-
-            .dev-card .dev-img img {
-                max-height: 100%;
-                /* Ensure the image doesn't exceed the container height */
-                max-width: 100%;
-                /* Ensure the image doesn't exceed the container width */
-                object-fit: contain;
-                /* Make sure the entire image is visible */
-                margin-bottom: 0 !important;
-            }
 
 
         }
@@ -958,47 +798,47 @@
 
     <div class="dev-container">
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Standard Floorplan</div>
             <img src="images/umoja-flow-plan/11 Standard Floorplan.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Duplex Floorplan Lower</div>
             <img src="images/umoja-flow-plan/12 Duplex Floorplan Lower.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Duplex Floorplan Upper</div>
             <img src="images/umoja-flow-plan/13 Duplex Floorplan Upper.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Two Bedroom</div>
             <img src="images/umoja-flow-plan/2 Bed.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Two Bedroom</div>
             <img src="images/umoja-flow-plan/2BR.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Three Bedroom</div>
             <img src="images/umoja-flow-plan/3BR.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Three Bedroom</div>
             <img src="images/umoja-flow-plan/3 Bed.png" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Four Bedroom</div>
             <img src="images/umoja-flow-plan/4BHK.jpg" alt="Image 1" />
 
         </div>
         <div class="dev-card">
-            <div class="dev-badge">READY FOR OCCUPATION</div>
+            <div class="dev-badge">Four Bedroom</div>
             <img src="images/umoja-flow-plan/4BR.png" alt="Image 1" />
 
         </div>

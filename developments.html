@@ -81,7 +81,7 @@
     <link rel='dns-prefetch' href='http://www-emaar-com.azureedge.net/' />
 
     <link href='https://www-emaar-com.azureedge.net/' rel='preconnect' />
-    <link rel="alternate" type="application/rss+xml" title="Emaar Properties PJSC &raquo; Feed"
+    <link rel="alternate" type="application/rss+xml" title="emaar Properties PJSC &raquo; Feed"
         href="feed/index.html" />
     <style id='wp-emoji-styles-inline-css'>
         img.wp-smiley,
@@ -692,8 +692,6 @@
             margin: 50px;
         }
 
-
-
         .image-slider2 {
             position: relative;
             width: 100%;
@@ -714,7 +712,6 @@
             display: block;
             z-index: 1;
         }
-
 
         .dev-card .dev-img {
             width: 50%;
@@ -741,24 +738,23 @@
 
         .dev-card-content {
             position: relative;
-            padding: 10px 20px ;
+            padding: 10px 20px;
             height: 350px;
             width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             margin: 0 20px;
-           
+
         }
 
         .dev-card-content .dev-logo {
             position: relative;
             width: 150px;
-           align-self: center;
+            align-self: center;
             margin: 0 !important;
             padding: 10px;
         }
-
 
         .dev-card-content h2 {
             color: #333;
@@ -774,7 +770,7 @@
             justify-content: space-between;
             width: 100%;
             margin: 0 !important;
-          
+
         }
 
         .dev-info .info-d {
@@ -831,7 +827,30 @@
             background-color: #333;
             color: #FFF;
         }
+        @media (max-width: 1670px) {
+             /* .dev-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+        } */
 
+        .dev-card {
+            
+            width: 100%;
+        }
+
+            .dev-card .dev-img,
+            .dev-card-content {
+                position: relative;
+                height: max-content;
+            }
+           
+        }
         @media (max-width: 800px) {
             .dev-container {
                 margin: 0;
@@ -839,6 +858,7 @@
                 padding: 5px;
                 display: flex;
                 flex-direction: column;
+                position: relative;
             }
 
             .dev-card {
@@ -855,22 +875,35 @@
             .dev-card .dev-img,
             .dev-card-content {
                 width: 100%;
+                margin: 0;
             }
 
             .dev-card-content {
                 position: relative;
-                height: fit-content;
-                margin: 0;
-                padding: 0;
-                margin-top: 0;
+                padding: 10px;
             }
 
             .dev-card .dev-img {
-                min-height: fit-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* Center the image vertically */
+                height: 300px;
+                overflow: hidden;
+                /* Prevent overflow if the image is larger */
             }
-            .dev-card .dev-img img{
-                width: 100%!important;
+
+            .dev-card .dev-img img {
+                max-height: 100%;
+                /* Ensure the image doesn't exceed the container height */
+                max-width: 100%;
+                /* Ensure the image doesn't exceed the container width */
+                object-fit: contain;
+                /* Make sure the entire image is visible */
+                margin-bottom: 0 !important;
             }
+
+
         }
     </style>
 </head>
@@ -925,33 +958,36 @@
         <div class="dev-card">
             <div class="dev-badge">READY FOR OCCUPATION</div>
             <div class="image-slider2 dev-img">
-                <img src="https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/cf5ca32dc7c18eb.gif"
+                <img src="images/umoja-interior/04 Standard Lounge.jpg"
                     alt="Image 1" />
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO2fs9pRweLUWpnmxC3BVk-4K_aqzIrqNg0WOMpaV084pa6eJy5SVQ6oBIO2t98BP2c6I&usqp=CAU"
+                <img src="images/umoja-interior/10 Duplex Master Bedroom.jpg"
                     alt="Image 2" style="display:none;" />
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6NX_zbU6p34ocBQ0gpIFaDXfifZ4p4u4dwJ0E236ObVMnuMJ6kw5Gyailepqiw0gKIbk&usqp=CAU"
+                <img src="images/umoja-interior/06 Standard Kitchen.jpg"
+                    alt="Image 3" style="display:none;" />
+                    <img src="images/umoja-interior/05 Standard Dining.jpg"
                     alt="Image 3" style="display:none;" />
             </div>
             <div class="dev-card-content">
-                <img src="https://static.wixstatic.com/media/4a7193_73ee6d8f55e74600a48b80f80336efed~mv2.png/v1/fill/w_206,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Aura%20Peponi%20Logo_1.png" alt="" class="dev-logo"/>
-                
-                <h2>LAVINGTON | BESPOKE LUXURY LIVING</h2>
+                <img src="https://heimatconsult.co.ke/wp-content/uploads/2022/09/Heimat-removebg-preview-160x75.png"
+                    alt="" class="dev-logo" />
+
+                <h2>NYALI | UMOJA RESIDENCY</h2>
                 <div class="dev-info">
                     <div class="info-d">
                         <div>
                             <img src="https://static.wixstatic.com/media/1bb245_34882c4787ce45388f8beab29b0fa63a~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/beds.png"
                                 alt="" width="20px">
-                            <small>BEDS</small>
+                            <small>BEDROOMS</small>
                         </div>
-                        <span>5</span>
+                        <span>2, 3, 4</span>
                     </div>
                     <div class="info-d">
                         <div>
                             <img src="https://static.wixstatic.com/media/1bb245_4dd010baf34e46dd99b3a4cd7f0e3cd9~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/price.png"
                                 alt="" width="20px">
-                            <small>PRICE</small>
+                            <small>PRICE from</small>
                         </div>
-                        <span>Ksh 1,150,000</span>
+                        <span>Ksh 11,150,000</span>
                     </div>
                     <div class="info-d">
                         <div>
@@ -980,16 +1016,17 @@
                     alt="Image 3" style="display:none;" />
             </div>
             <div class="dev-card-content">
-                <img src="https://static.wixstatic.com/media/2b71ec_8d382d5fca8f4f13a8557d3c37b2acbd~mv2.png/v1/fill/w_237,h_56,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/COCO%20-%20Green%20Logo.png" alt="" class="dev-logo"/>
-                <h2>LAVINGTON | BESPOKE LUXURY LIVING</h2>
+                <img src="https://heimatconsult.co.ke/wp-content/uploads/2022/09/Heimat-removebg-preview-160x75.png"
+                    alt="" class="dev-logo" />
+                <h2>NYALI | 3RD AVENUE</h2>
                 <div class="dev-info">
                     <div class="info-d">
                         <div>
                             <img src="https://static.wixstatic.com/media/1bb245_34882c4787ce45388f8beab29b0fa63a~mv2.png/v1/fill/w_28,h_28,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/beds.png"
                                 alt="" width="20px">
-                            <small>BEDS</small>
+                            <small>BEDROOMS</small>
                         </div>
-                        <span>5</span>
+                        <span>2, 3, 4</span>
                     </div>
                     <div class="info-d">
                         <div>
@@ -997,7 +1034,7 @@
                                 alt="" width="20px">
                             <small>PRICE</small>
                         </div>
-                        <span>Ksh 1,150,000</span>
+                        <span>Ksh 11,000,000</span>
                     </div>
                     <div class="info-d">
                         <div>
@@ -1014,7 +1051,7 @@
                 </div>
             </div>
         </div>
-       
+
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>

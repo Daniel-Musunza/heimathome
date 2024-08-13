@@ -1,13 +1,13 @@
 @font-face {
     font-display: swap;
-    font-family: Optima;
+    font-family: Futura;
     src: url(https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/fonts/Optima-Regular.eot), url(https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/fonts/Optima-Regular.eot) format("embedded-opentype"), url(https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/fonts/Optima-Regular.ttf) format("truetype"), url(https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/fonts/Optima-Regular.woff) format("woff"), url(https://www-emaar-com.azureedge.net/wp-content/themes/twentytwenty-child/assets/fonts/Optima-Regular.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 300;
     font-size: 18px;
     line-height: 24px;
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Optima;
+    font-family: Futura;
     color: #000;
     padding: 0;
     text-transform: uppercase;
@@ -142,7 +142,7 @@ input[type="search"]:-ms-input-placeholder {
 }
 
 .btn {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 700;
     font-size: 12px;
     border-radius: 2px;
@@ -594,7 +594,7 @@ p.booking-confirmation {
     padding-top: 0;
     text-transform: uppercase;
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
@@ -630,7 +630,7 @@ p.booking-confirmation {
 
 .site .gform_wrapper input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
 .site .gform_wrapper select {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
@@ -942,7 +942,7 @@ input[type="checkbox"]:checked+label:before {
     border-radius: 2px;
     background-color: #071c35;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px !important;
     font-weight: 700;
     letter-spacing: 2px;
@@ -959,7 +959,7 @@ input[type="checkbox"]:checked+label:before {
     border-radius: 2px;
     background-color: #071c35;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px !important;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1235,7 +1235,7 @@ input[name="property_search"]::-ms-input-placeholder {
     font-weight: 400;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     margin: 0 0 25px
 }
 
@@ -1375,13 +1375,13 @@ span.section-tagline {
     color: #9d9d9c;
     font-weight: 700;
     display: flex;
-    font-family: Lato, sans-serif
+    font-family: Futura
 }
 
 h3.title {
     color: #9d9d9c;
     font-weight: 700;
-    font-family: Lato, sans-serif
+    font-family: Futura
 }
 
 .signature:after,
@@ -1585,7 +1585,7 @@ span.section-tagline:after {
 .digital-features h4 {
     font-weight: 300;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     line-height: 24px;
     font-weight: 300;
     position: relative;
@@ -1724,7 +1724,7 @@ span.section-tagline:after {
 .constructionupdate-swiper-light-box .swiper-pagination-fraction,
 .global-swiper-light-box .swiper-pagination-fraction {
     color: #000;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 0;
@@ -1742,7 +1742,7 @@ span.section-tagline:after {
 
 .gallery-description {
     color: #9d9d9c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1833,7 +1833,7 @@ span.section-tagline:after {
 
 .gallery-vr-description {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 23px
@@ -2088,7 +2088,7 @@ a.collapse_documents_required {
     margin: 10px 0 0;
     display: block;
     text-align: center;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     color: #232323;
     font-size: 11px;
     float: none
@@ -2209,7 +2209,7 @@ h3.tagline {
 
 .property-feature-block span.feature-numeric {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     line-height: 36px;
     display: block
@@ -2241,7 +2241,7 @@ h3.tagline {
     font-size: 20px;
     line-height: 30px;
     text-transform: uppercase;
-    font-family: Optima;
+    font-family: Futura;
     margin-bottom: 24px;
     position: relative;
     padding: 0 0 0 50px
@@ -2269,7 +2269,7 @@ h3.tagline {
 
 .new-vr-tour {
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2329,7 +2329,7 @@ h1.bedroom-villas {
 
 .blocks-bedroom-villas div h2 {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     line-height: 36px;
     text-align: center;
@@ -2553,7 +2553,7 @@ span.feature-numeric:hover {
     font-size: 46px;
     line-height: 60px;
     margin: 0 0 25px;
-    font-family: Optima;
+    font-family: Futura;
     display: block
 }
 
@@ -2616,7 +2616,7 @@ h2.property-name {
 }
 
 span.col-value {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400
@@ -2676,7 +2676,7 @@ span.col-value {
 }
 
 .payment-plan-container table td span {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     font-weight: 400
 }
@@ -2940,7 +2940,7 @@ a.sort-by-location:hover {
 
 .unit-booking .gfield_html {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 32px;
@@ -2949,7 +2949,7 @@ a.sort-by-location:hover {
 
 .you-will-need-to-p {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 32px;
@@ -3051,7 +3051,7 @@ li.apple-switch input[type="checkbox"]:checked:after {
     clear: both;
     width: 100%;
     text-align: left;
-    font-family: Lato, sans-serif
+    font-family: Futura
 }
 
 .unit-booking .gform_wrapper li.gfield_html h4.booking-sub-heading {
@@ -3175,7 +3175,7 @@ li.apple-switch input[type="checkbox"]:checked:after {
     padding-top: 20px;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     line-height: 24px;
     font-weight: 400;
@@ -3187,7 +3187,7 @@ a.breadcrumb-link {
     display: inline-block;
     margin-bottom: 5px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 2px;
@@ -3204,7 +3204,7 @@ a.breadcrumb-link:hover {
 }
 
 .sticky-prop-bar h4 {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     color: #232323;
     font-size: 12px;
     line-height: 24px;
@@ -3224,7 +3224,7 @@ a.breadcrumb-link:hover {
     font-size: 22px;
     line-height: 24px;
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     text-transform: uppercase
 }
 
@@ -3258,7 +3258,7 @@ a.availability-breadcrumb i {
 }
 
 .community-features span.feature-head {
-    font-family: Optima;
+    font-family: Futura;
     font-size: 22px;
     line-height: 32px;
     color: #000
@@ -3295,7 +3295,7 @@ a.availability-breadcrumb i {
 .property-list span.property-tagline,
 .row-title span.column-name {
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -3314,7 +3314,7 @@ a.availability-breadcrumb i {
     display: block;
     text-transform: uppercase;
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -3323,7 +3323,7 @@ a.availability-breadcrumb i {
 
 .block-subtitle,
 .location-advantages span.feature-head {
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: normal
@@ -3561,7 +3561,7 @@ span.prev-pagination-disabled {
     background-color: #cdab6e;
     padding: 10px 17px;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -3657,7 +3657,7 @@ span.prev-pagination-disabled {
 .awards-accordion .card-header a,
 .principal-accordion h3 {
     color: #000;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 0;
@@ -3955,7 +3955,7 @@ footer#colophon {
 }
 
 footer p.widget-title {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -3969,7 +3969,7 @@ footer h5 {
     font-size: 18px;
     line-height: 24px;
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 300;
     text-transform: inherit
 }
@@ -4112,7 +4112,7 @@ footer.site-footer-partners {
 .vr-title-small-for-partners {
     color: #9d9d9c;
     font-weight: 700;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     line-height: 24px;
     font-size: 12px;
     font-weight: 400;
@@ -4279,7 +4279,7 @@ body .book-webinar-form .gform_wrapper div.gform_body ul.gform_fields li.gfield.
 .testimonial-section .reviewer-identity h4 {
     font-size: 12px;
     line-height: 24px;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 400;
     letter-spacing: 2px;
     margin: 10px 0 0;
@@ -4421,7 +4421,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
 }
 
 .co-block h4 {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -4474,7 +4474,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
 
 .vr-property-title {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     letter-spacing: 0;
     line-height: 36px;
@@ -4484,7 +4484,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
 
 .vr-property-description {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px
 }
@@ -5026,7 +5026,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
     ul.mobile-comm-list h4 {
         font-size: 12px;
         line-height: 24px;
-        font-family: Lato, sans-serif;
+        font-family: Futura;
         font-weight: 400;
         position: relative;
         letter-spacing: 2px;
@@ -5495,7 +5495,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
         padding: 15px 20px;
         width: 100%;
         text-align: left;
-        font-family: Lato, sans-serif;
+        font-family: Futura;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -5652,7 +5652,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
 
     .home-hero-section .select-sec-options h3,
     .prop-search-mobile-form .select-sec-options h3 {
-        font-family: Optima;
+        font-family: Futura;
         color: #000;
         font-size: 22px;
         line-height: 40px;
@@ -7091,7 +7091,7 @@ ul#gform_fields_8 li.gfield.phone-intl-code div.ginput_container_select {
     height: 50px;
     background-color: #9d9d9c;
     width: 15%;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -7899,7 +7899,7 @@ select.event-cat-select {
     z-index: 10 !important;
     width: 91%;
     right: 15px !important;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 400;
     color: #232323
 }
@@ -8068,7 +8068,7 @@ select.event-cat-select {
 
 .event-blk .event-details .lft-blk .event-name h4 {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     letter-spacing: 0;
     line-height: 34px
@@ -8146,7 +8146,7 @@ select.event-cat-select {
 }
 
 .rht-blk .event-date small {
-    font-family: Optima;
+    font-family: Futura;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 24px;
@@ -8158,7 +8158,7 @@ select.event-cat-select {
 .rht-blk .event-date span {
     align-self: center;
     color: #232323;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 22px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -8444,7 +8444,7 @@ select.event-cat-select {
 label[for="loan-duration"],
 label[for="property-price"] {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 36px;
@@ -8454,7 +8454,7 @@ label[for="property-price"] {
 
 .mortgagec-currency {
     color: #7c7c7c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px;
     letter-spacing: 0;
     line-height: 24px;
@@ -8584,7 +8584,7 @@ output {
 
 .down-payment-info {
     color: #ababab !important;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px;
     letter-spacing: 0;
     line-height: 29px
@@ -8622,13 +8622,13 @@ a.down-payment-info {
 
 .permonth {
     color: #ababab;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px
 }
 
 .output-mcalculation {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 56px;
     display: inline-block
 }
@@ -8746,7 +8746,7 @@ a.down-payment-info {
 
 .mortgage-offers-blk .page-title {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 40px;
     letter-spacing: 0;
     line-height: 60px;
@@ -9022,7 +9022,7 @@ a.down-payment-info {
 
 .ecm-quote-txt {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 1.5rem;
     letter-spacing: 0;
     line-height: 2rem;
@@ -9439,7 +9439,7 @@ ul.prop-list li label i {
 }
 
 ul.prop-list li span {
-    font-family: Optima;
+    font-family: Futura;
     font-size: 24px;
     line-height: 36px;
     display: block;
@@ -9944,7 +9944,7 @@ span.desc-sort.active {
     background: url(../../../../../../../../themes/twentytwenty-child/assets/css/inc/assets/images/lrw-bg.html) no-repeat left top;
     font-size: 12px;
     padding: 10px;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     color: #001c37;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .08);
     min-height: 69px
@@ -9991,7 +9991,7 @@ span.desc-sort.active {
     padding: 8px 18px;
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .19);
-    font-family: Optima;
+    font-family: Futura;
     font-size: 9px;
     line-height: 10px;
     letter-spacing: 0;
@@ -10069,7 +10069,7 @@ span.desc-sort.active {
 
 .offers-flag-1 .heading-2 {
     color: #001c37;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 0
@@ -10077,7 +10077,7 @@ span.desc-sort.active {
 
 .offers-flag-1 .heading-3 {
     color: #001c37;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 6px;
     font-weight: 500;
     letter-spacing: 1.25px;
@@ -10087,7 +10087,7 @@ span.desc-sort.active {
 
 .offers-flag-1 .heading-4 {
     color: #001c37;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 8px;
     font-weight: 500;
     letter-spacing: 4.2px;
@@ -10443,7 +10443,7 @@ a.active-clearall:hover {
 
 .checkout-info {
     color: #4d4d4d;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     line-height: 20px;
     text-align: justify;
@@ -10503,7 +10503,7 @@ a.active-clearall:hover {
     background-color: #fff;
     border-radius: 0 !important;
     border: 0 !important;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 400
 }
 
@@ -10936,7 +10936,7 @@ img.payment-error-icon {
 
 .schedule-call-info {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 300;
     font-size: 18px;
     text-transform: capitalize
@@ -10984,7 +10984,7 @@ div.single-featured.display {
 }
 
 .multi-sections .multisec-single-details .single-featured-text .middle-allign .vertical-allign ul li a {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     line-height: 2;
     letter-spacing: .5px;
     font-size: 13px;
@@ -11274,7 +11274,7 @@ footer p.widget-title {
 
 .qa-block h5 {
     text-transform: inherit;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 400;
     font-size: 18px
 }
@@ -11355,7 +11355,7 @@ ul.qa-block {
 }
 
 .faq-panel h4.panel-title {
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-weight: 300;
     border-bottom: 1px solid #ddd;
     padding: 0 0 15px
@@ -11461,7 +11461,7 @@ ul.qa-block {
 
 p.onboarding-desc {
     color: #000;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;
@@ -11559,7 +11559,7 @@ p.onboarding-desc {
 
 .emaar-group-carousel h3 {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 27px;
     letter-spacing: 0;
     line-height: 33px
@@ -11659,7 +11659,7 @@ p.onboarding-desc {
 
 .when-how-icon-inner p {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -11689,7 +11689,7 @@ p.onboarding-desc {
     text-align: center;
     font-size: 12px;
     font-weight: 700;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     text-transform: uppercase;
     color: #9d9d9c
 }
@@ -11737,7 +11737,7 @@ p.onboarding-desc {
 
 .how-can-you-access-u {
     color: #9d9d9c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 11px;
     font-weight: 700;
     line-height: 24px;
@@ -11747,7 +11747,7 @@ p.onboarding-desc {
 
 .happiness_centre_description {
     color: #9d9d9c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 15px;
     font-weight: 300;
     letter-spacing: 0;
@@ -11850,7 +11850,7 @@ p.onboarding-desc {
     border-radius: 6.4px;
     background-color: #747474;
     color: #fff;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 2.24px;
@@ -12113,7 +12113,7 @@ p.onboarding-desc {
     margin: 10px 0 0;
     display: block;
     text-align: center;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     color: #232323;
     font-size: 11px;
     float: none
@@ -12274,7 +12274,7 @@ p.select-card-type {
 .std-mortgage-prop-price #inCost {
     padding: 17px;
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     width: 100%
 }
@@ -12314,7 +12314,7 @@ p.select-card-type {
 
 .estimated-monthly-right {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 8px
@@ -12337,7 +12337,7 @@ p.select-card-type {
     display: inline-block;
     vertical-align: top;
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 300;
     text-transform: capitalize
@@ -12345,7 +12345,7 @@ p.select-card-type {
 
 .schedule {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0;
@@ -12364,7 +12364,7 @@ p.select-card-type {
 .label-headings,
 .std-mc-left label {
     color: #000;
-    font-family: Optima;
+    font-family: Futura;
     font-size: 20px;
     letter-spacing: 0;
     line-height: 36px;
@@ -12384,7 +12384,7 @@ p.select-card-type {
 
 .m-start-date {
     color: #7c7c7c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 24px;
     letter-spacing: 0;
     line-height: 24px;
@@ -12396,7 +12396,7 @@ p.select-card-type {
 
 .std-mortgagec-currency {
     color: #7c7c7c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 19px;
     letter-spacing: 0;
     line-height: 24px;
@@ -12434,7 +12434,7 @@ p.select-card-type {
 
 .mortgage-payoff-date span.m-payoff-desc {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 0;
@@ -12455,7 +12455,7 @@ p.select-card-type {
 
 .mc-years-line-chart {
     color: #9d9d9c;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase
@@ -12468,7 +12468,7 @@ p.select-card-type {
 
 .std-mc-desc {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;
@@ -12498,7 +12498,7 @@ p.select-card-type {
 
 .linechart-notations {
     color: #181717;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 18px;
@@ -12517,7 +12517,7 @@ p.select-card-type {
 
 .total-payments {
     color: #232323;
-    font-family: Lato, sans-serif;
+    font-family: Futura;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;

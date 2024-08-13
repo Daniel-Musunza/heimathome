@@ -11,7 +11,7 @@
 href="../../../../mobileapps.emaartechnologies.com/assets/security/style.css">
     <style type="text/css">
         h2 {
-            font-family: Tahoma;
+            font-family: Futura;
             font-size: 20px;
             color: #fff;
             margin: 30px 0 25px 0;
@@ -20,7 +20,7 @@ href="../../../../mobileapps.emaartechnologies.com/assets/security/style.css">
         }
 
         h3 {
-            font-family: Tahoma;
+            font-family: Futura;
             font-size: 18px;
             color: #fff;
             margin: 30px 0 25px 0;
@@ -33,7 +33,7 @@ href="../../../../mobileapps.emaartechnologies.com/assets/security/style.css">
         }
 
         P {
-            font-family: Tahoma;
+            font-family: Futura;
             font-size: 15px;
             padding: 1px;
             color: #ffffff;

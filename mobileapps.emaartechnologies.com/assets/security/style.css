@@ -50,7 +50,7 @@ input, button {
   background-image: url("001.png");
   background-size: cover;
   overflow: auto;
-  font-family: Tahoma, sans-serif;
+  font-family: Futura;
 }
 
 .cont_DO {
@@ -59,7 +59,7 @@ input, button {
   background-image: url("Dubai_Opera_BG.jpg");
   background-size: cover;
   overflow: auto;
-  font-family: Tahoma, sans-serif;
+  font-family: Futura;
 }
 
 .demo {

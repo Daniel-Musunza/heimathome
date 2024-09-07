@@ -14,12 +14,16 @@
     ---para: #646464;
 }
 
+body{
+    font-family: "futura"
+}
+
 .header {
     position: absolute;
     z-index: 999;
     width: 100%;
     padding: 10px 20px 10px 20px;
-
+text-transform: uppercase;
     background-color: transparent;
 }
 
